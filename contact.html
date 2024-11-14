@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Hamza Bendelladj</title>
+    <link rel="stylesheet" href="projet.css"> <!-- Lien vers le fichier CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet"> <!-- Icônes Font Awesome -->
+</head>
+<body>
+    <header>
+        <div class="principale">
+            <div class="Hamza">
+                <a href="index.html">Hamza<span>B</span></a> <!-- Lien vers la page d'accueil -->
+            </div>
+            <ul>
+                <li>
+                    <a href="projet.html">Accueil</a> <!-- Lien vers la page d'accueil -->
+                </li>
+                <li>
+                    <a href="#A_propos">A propos</a>
+                </li>
+                <li>
+                    <a href="#realisations">Réalisation</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a> <!-- Lien vers cette page de contact -->
+                
+                </li>
+            </ul>
+        </div>
+        <div class="titre">
+            <h1>Contactez Hamza Bendelladj</h1>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Formulaire de Contact</h2>
+            <p>Pour toute question ou suggestion, n'hésitez pas à m'envoyer un message. Vous pouvez me contacter par email à <a href="mailto:exemple@email.com">exemple@email.com</a>.</p>
+            <p>Veuillez remplir le formulaire ci-dessous :</p>
+
+            <!-- Formulaire de contact -->
+            <form action="mailto:exemple@email.com" method="post" enctype="text/plain">
+                <div>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message :</label><br>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div>
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hamza Bendelladj - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
