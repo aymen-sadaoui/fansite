@@ -1,4 +1,4 @@
-/* Ajout de styles de base pour le site */
+
 * {
     padding: 0;
     margin: 0;
@@ -11,9 +11,9 @@ body {
     color: #333;
 }
 
-/* Style pour le header */
+
 header {
-    background-image: url(/assets/hamza3.jpg);
+    background-image: url(../fansite/assets/hamza3.jpg);
     height: 100vh;
     background-size: cover;
     position: relative;
@@ -106,37 +106,33 @@ ul li.active a {
     color: white;
 }
 
-/* Style pour la section "A propos" */
-/* Style pour la section "A propos" */
+
 #A_propos {
-    background-image: url(/assets/technology-785742_1280.jpg);
-    background-size: cover;  /* L'image couvre toute la section */
-    background-position: center;  /* L'image est centrée dans la section */
-    background-repeat: no-repeat;  /* Empêche la duplication de l'image */
+    background-image: url(./assets/technology-785742_1280.jpg);
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
     padding: 40px;
     margin-top: -20px;
     text-align: center;
-    min-height: 50vh;  /* Garantit que la section occupe au moins toute la hauteur de la fenêtre */
+    min-height: 50vh;  
     margin-bottom: 50px;
 }
 
 #A_propos p {
-    color: white; /* Applique la couleur noire uniquement au texte dans la section A propos */
+    color: white; 
 }
 
 
-/* Style pour la section "Réalisation" */
-/* Style pour la section "Réalisation" */
-/* Style pour la section "Réalisation" */
-/* Style pour la section "Réalisation" */
+
 #realisations {
-    background-image: url(/assets/cadenasimage.jpg); /* Remplace l'URL de l'image ici */
-    background-size: cover;  /* L'image couvre toute la section, même si elle est coupée */
-    background-position: center;  /* Centrer l'image de fond */
-    background-repeat: no-repeat;  /* Empêcher la duplication de l'image */
+    background-image: url(./assets/hamza4.jpg); 
+    background-size: cover;  
+    background-position: right;  
+    background-repeat: no-repeat;  
     padding: 40px;
     text-align: center;
-    min-height: 100vh;  /* Garantit que la section occupe au moins toute la hauteur de la fenêtre */
+    min-height: 100vh;  
 }
 
 
@@ -154,7 +150,7 @@ ul li.active a {
     margin: 0 auto;
 }
 
-/* Liste dans la section Réalisation */
+
 #realisations ul {
     list-style: none;
     padding: 0;
@@ -168,7 +164,7 @@ ul li.active a {
     margin-bottom: 10px;
 }
 
-/* Style des liens dans la section Réalisation */
+
 #realisations a {
     text-decoration: none;
     color: red;
@@ -179,7 +175,7 @@ ul li.active a {
     text-decoration: underline;
 }
 
-/* Illustration du malware */
+
 #realisations img {
     max-width: 100%;
     height: auto;
@@ -189,7 +185,7 @@ ul li.active a {
 }
 
 
-/* Centrage du texte dans le corps */
+
 main {
     text-align: center;
     margin-top: 40px;
@@ -216,9 +212,9 @@ p {
     margin: 0 auto;
 }
 
-/* Section Contact */
+
 #contact {
-    background-color: grey;
+    background-image: url(./assets/anonymous-6512219_1280.jpg);
     padding: 40px;
     color: black;
     margin-bottom: 20px;
@@ -286,57 +282,10 @@ p {
     text-decoration: underline;
 }
 
-/* Styles pour les réseaux sociaux */
-.social-media ul {
-    list-style: none;
-    padding: 0;
-    text-align: center; /* Centrer les icônes */
+.footer p {
+    color: #000;
 }
 
-.social-media ul li {
-    display: inline-block;
-    margin-right: 15px;
-}
 
-.social-media ul li a {
-    text-decoration: none;
-    color: #2384e3; /* Couleur par défaut pour les liens */
-    font-size: 30px;
-    transition: 0.3s ease;
-}
 
-.social-media ul li a:hover {
-    color: #000; /* Change la couleur lors du survol */
-}
 
-/* Couleurs des icônes spécifiques */
-.social-media ul li a.facebook {
-    color: #1877F2; /* Couleur de Facebook */
-}
-
-.social-media ul li a.instagram {
-    color: #E4405F; /* Couleur d'Instagram */
-}
-
-.social-media ul li a.x {
-    color: #1DA1F2; /* Couleur de X (anciennement Twitter) */
-}
-
-.social-media ul li a.facebook:hover {
-    color: #0d3c8c; /* Couleur sombre lors du survol de Facebook */
-}
-
-.social-media ul li a.instagram:hover {
-    color: #be2a55; /* Couleur sombre lors du survol d'Instagram */
-}
-
-.social-media ul li a.x:hover {
-    color: #0d95e8; /* Couleur sombre lors du survol de X (anciennement Twitter) */
-}
-
-.map iframe {
-    margin-top: 20px;
-    max-width: 100%;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
